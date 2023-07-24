@@ -1,2 +1,52 @@
-# Hexapod-robot-Arduino-
-This is my code for the hexapod robot, a 6 legged walking creature mimicking an insect-like gait. 
+![4a8e2017-d47d-417b-90fc-344944dfb6d2](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/cd725da1-2476-4685-84d6-fc8681b3f478)**Hexapod Robot (Arduino)**
+This project contains the code for a hexapod robot, a 6-legged walking creature that mimics an insect-like gait. The robot's movements are controlled using Bluetooth communication.
+
+**Final product**
+
+![4a8e2017-d47d-417b-90fc-344944dfb6d2](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/fb0896cd-5150-447a-af53-79546eb4afe2)
+
+
+**Description**
+The hexapod robot is controlled through a custom mobile application that sends commands to the robot via Bluetooth. The robot is capable of moving forward and backward using its six legs.
+
+**Hardware Requirements**
+Arduino board (e.g., Arduino Uno)
+6x Servo motors (e.g., SG90)
+HC-05 Bluetooth module
+Power supply for the Arduino and servos
+
+**Libraries Used**
+SoftwareSerial - for Bluetooth communication
+Servo - for controlling the servo motors
+
+**Wiring**
+The connections for the servos and Bluetooth module should be made as follows:
+Bluetooth TX  -> Arduino Pin 12
+Bluetooth RX  -> Arduino Pin 13
+Servo 1 (front) -> Arduino Pin 9
+Servo 2 (middle) -> Arduino Pin 10
+Servo 3 (back) -> Arduino Pin 11
+
+**Functions**
+zeroset(): Initializes the positions of the servos to a neutral position.
+forward(): Moves the hexapod forward in an insect-like gait.
+backward(): Moves the hexapod backward in an insect-like gait.
+Stop(): Stops the movement of the hexapod and resets all servos to the neutral position.
+
+**Setup and Usage**
+Upload the provided Arduino code to the Arduino board using the Arduino IDE.
+Connect the hardware as per the wiring instructions above.
+Power up the hexapod robot and ensure the Bluetooth module is properly paired with the controlling device (e.g., smartphone).
+Use the custom mobile application to control the hexapod's movement. Send 'f' to move forward, 'b' to move backward, and 'S' to stop.
+
+**Note**
+Please ensure that you handle the hexapod robot with care and operate it in a safe environment, away from obstacles and other potential hazards.
+
+Some pictures of the late process (I built the frame myself using strips of aluminium that had holes, and the chassis by forging 2 central holes)
+
+![095b691e-d285-41ea-abe1-3439eee5a609](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/fac3a9f9-a10e-4bd5-9ff4-7e0e5023a866)
+![1a457aae-4ad5-4725-8669-77469c4817e5](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/6fe7ad71-e4a7-4f20-b7f3-bf999bbf4270)
+![3f2a56b9-9137-4899-bfd3-5e111ce419bc](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/85d78968-ce61-4e84-88db-b746da15492f)
+![9a5afbbe-fa04-4f4e-a615-1148e35615e6](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/6b72b7d1-faed-4cac-8913-31dad0e4db06)
+
+

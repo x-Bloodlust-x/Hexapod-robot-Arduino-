@@ -1,4 +1,4 @@
-#**Hexapod Robot (Arduino)**: 
+#Hexapod robot (Arduino)#
 
 This project contains the code for a hexapod robot, a 6-legged walking creature that mimics an insect-like gait. The robot's movements are controlled using Bluetooth communication.
 

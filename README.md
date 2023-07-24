@@ -1,4 +1,4 @@
-![4a8e2017-d47d-417b-90fc-344944dfb6d2](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/cd725da1-2476-4685-84d6-fc8681b3f478)**Hexapod Robot (Arduino)**
+**Hexapod Robot (Arduino)**
 This project contains the code for a hexapod robot, a 6-legged walking creature that mimics an insect-like gait. The robot's movements are controlled using Bluetooth communication.
 
 **Final product**
@@ -45,8 +45,7 @@ Please ensure that you handle the hexapod robot with care and operate it in a sa
 Some pictures of the late process (I built the frame myself using strips of aluminium that had holes, and the chassis by forging 2 central holes)
 
 ![095b691e-d285-41ea-abe1-3439eee5a609](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/fac3a9f9-a10e-4bd5-9ff4-7e0e5023a866)
-![1a457aae-4ad5-4725-8669-77469c4817e5](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/6fe7ad71-e4a7-4f20-b7f3-bf999bbf4270)
+
 ![3f2a56b9-9137-4899-bfd3-5e111ce419bc](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/85d78968-ce61-4e84-88db-b746da15492f)
-![9a5afbbe-fa04-4f4e-a615-1148e35615e6](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/6b72b7d1-faed-4cac-8913-31dad0e4db06)
 
 

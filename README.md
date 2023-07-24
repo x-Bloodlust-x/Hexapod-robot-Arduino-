@@ -2,6 +2,9 @@
 
 This project contains the code for a hexapod robot, a 6-legged walking creature that mimics an insect-like gait. The robot's movements are controlled using Bluetooth communication.
 
+Video of motion:
+https://www.youtube.com/watch?v=sqbBWBNbRG4
+
 **Final product**
 
 ![b7caaba2-44ac-4abb-8c7f-fee48c8f4a15](https://github.com/x-Bloodlust-x/Hexapod-robot-Arduino-/assets/127997008/6b334b80-2a11-49a8-93eb-3cf015e22223)

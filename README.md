@@ -10,35 +10,49 @@
 **Hardware Requirements**
 
 Arduino board (e.g., Arduino Uno)
+
 6x Servo motors (e.g., SG90)
+
 HC-05 Bluetooth module
+
 Power supply for the Arduino and servos
 
 **Libraries Used**
 
 SoftwareSerial - for Bluetooth communication
+
 Servo - for controlling the servo motors
 
 **Wiring**: The connections for the servos and Bluetooth module should be made as follows:
 
 Bluetooth TX  -> Arduino Pin 12
+
 Bluetooth RX  -> Arduino Pin 13
+
 Servo 1 (front) -> Arduino Pin 9
+
 Servo 2 (middle) -> Arduino Pin 10
+
 Servo 3 (back) -> Arduino Pin 11
 
 **Functions**
 
 zeroset(): Initializes the positions of the servos to a neutral position.
+
 forward(): Moves the hexapod forward in an insect-like gait.
+
 backward(): Moves the hexapod backward in an insect-like gait.
+
 Stop(): Stops the movement of the hexapod and resets all servos to the neutral position.
 
 **Setup and Usage**
 
 Upload the provided Arduino code to the Arduino board using the Arduino IDE.
+
 Connect the hardware as per the wiring instructions above.
+
 Power up the hexapod robot and ensure the Bluetooth module is properly paired with the controlling device (e.g., smartphone).
+
 Use the custom mobile application to control the hexapod's movement. Send 'f' to move forward, 'b' to move backward, and 'S' to stop.
 
 **Note**: Please ensure that you handle the hexapod robot with care and operate it in a safe environment, away from obstacles and other potential hazards.
